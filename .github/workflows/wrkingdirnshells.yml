@@ -16,7 +16,7 @@ jobs:
         runs-on: windows-latest
         steps:
             - name: Display Working Directory n List Files
-              run:
+              run: |
                 pwd
                 ls -a
                 echo $GITHUB_SHA
