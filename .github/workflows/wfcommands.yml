@@ -8,8 +8,8 @@ jobs:
             - name: Setting an error message
               run: echo "::error::Missign semicolon"
             - name: Setting an error message with params
-              run: echo "::error title::notice title, file=app.js",
+              run: echo "::warning title::notice title, file=app.js",
             - name: Setting an error message with params
-              run: echo "::error title::debug title, file=app.js",
+              run: echo "::notice title::debug title, file=app.js",
             - name: Setting an error message with params
-              run: echo "::error title::warning title, file=app.js",
+              run: echo "::debug title::warning title, file=app.js",
